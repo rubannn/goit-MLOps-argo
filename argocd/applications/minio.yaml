@@ -11,6 +11,8 @@ spec:
     targetRevision: 17.0.21
     helm:
       values: |
+        image:
+          repository: bitnamilegacy/minio
         auth:
           rootUser: minioadmin
           rootPassword: minioadmin123

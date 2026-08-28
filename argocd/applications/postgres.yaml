@@ -11,6 +11,8 @@ spec:
     targetRevision: 18.8.13
     helm:
       values: |
+        image:
+          repository: bitnamilegacy/postgresql
         architecture: standalone
         auth:
           username: mlflow
