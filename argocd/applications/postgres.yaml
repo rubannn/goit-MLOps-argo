@@ -20,6 +20,8 @@ spec:
           service:
             ports:
               postgresql: 5432
+          persistence:
+            enabled: false
   destination:
     server: https://kubernetes.default.svc
     namespace: mlflow
